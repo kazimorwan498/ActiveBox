@@ -1,0 +1,152 @@
+@media screen and (max-width: 1200px) {
+    #team {
+        grid-template-columns: auto auto;
+        padding: 10%;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        padding-inline: 8%;
+    }
+    #homePage {
+        padding: 8%;
+    }
+    #homePage h1 {
+        font-size: 50px;
+    }
+    #homePage p {
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+    #secPage {
+        grid-template-columns: auto auto;
+    }
+    #works {
+        grid-template-columns: auto auto;
+    }
+    /* #team .team-details:first-child {
+        margin: 0 10% 10% 0;
+    }
+    #team .team-details:nth-child(2) {
+        margin: 0 0 10% 10%;
+    }
+    #team .team-details:nth-child(3) {
+        margin: 10% 10% 0 0;
+    }
+    #team .team-details:last-child {
+        margin: 10% 0 0 10%;
+    } */
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        padding-inline: 4%;
+    }
+    #homePage h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #homePage h1 {
+        font-size: 40px;
+    }
+    #nav {
+        display: none;
+    }
+    #nav-button,
+    #nav-mobile #nav-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        color: var(--text-color);
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 25px;
+    }
+    #nav-mobile {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(100% - 60px);
+        height: calc(100% - 60px);
+        margin: 30px;
+        background-color: rgba(from var(--primary-color) r g b / 0.8);
+        backdrop-filter: blur(5px);
+        border-radius: 15px;
+        box-shadow: 0 0 20px 100px rgba(from var(--sec-text-color) r g b / 0.5);
+    }
+    #nav-mobile a {
+        color: var(--text-color);
+        font-size: 20px;
+    }
+    #nav-mobile #nav-close {
+        position: absolute;
+        top: 3%;
+        right: 5%;
+    }
+    #homePage h1 {
+        font-size: 40px;
+    }
+    #homePage p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #homePage h1 {
+        font-size: 25px;
+    }
+    #homePage p {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+    #find-button, #download button {
+        font-size: 12px;
+    }
+    #secPage {
+        grid-template-columns: auto;
+        padding: 5% 10%;
+    }
+    #works {
+        grid-template-columns: auto;
+    }
+    #team {
+        grid-template-columns: auto;
+    }
+    .all-clients {
+        flex-direction: column;
+    }
+    .all-clients img {
+        width: 100vw;
+    }
+    .clients-message {
+        width: 100vw;
+        gap: 40px;
+        padding: 10% 5%;
+    }
+    .clients-message h3 {
+        font-size: 5vw;
+    }
+    .clients-message p {
+        font-size: 2vw;
+    }
+    #download h2 {
+        font-size: 4.5vw;
+    }
+    #download span {
+        font-size: 2vw;
+    }
+    footer {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
