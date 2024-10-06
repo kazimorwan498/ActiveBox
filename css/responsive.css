@@ -109,7 +109,8 @@
         font-size: 14px;
         margin-bottom: 60px;
     }
-    #find-button, #download button {
+    #find-button,
+    #download button {
         font-size: 12px;
     }
     #secPage {

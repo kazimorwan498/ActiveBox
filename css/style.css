@@ -326,7 +326,7 @@ header img {
     width: 100vw;
     height: 100%;
     background: var(--clients-bg);
-    animation: clients-slide 25s infinite 3s;
+    animation: clients-slide 40s infinite 3s;
 }
 
 @keyframes clients-slide {
