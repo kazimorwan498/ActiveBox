@@ -6,6 +6,7 @@ const navMobile = document.getElementById("nav-mobile"),
 
 navButton.addEventListener("click", () => {
     navMobile.style.display = "flex";
+    navButton.style.pointerEvents = "none";
     // navButton.style.display = "none";
     body.style.overflow = "hidden";
 
@@ -19,6 +20,7 @@ navButton.addEventListener("click", () => {
 navClose.addEventListener("click", () => {
     // Add bounce-out animation before hiding navMobile
     navMobile.classList.add("bounce-out");
+    navButton.style.pointerEvents = "auto";
 
     setTimeout(() => {
         navMobile.style.display = "none";
@@ -34,6 +36,7 @@ navLinks.forEach((link) => {
     link.addEventListener("click", () => {
         // Add bounce-out animation before hiding nav
         navMobile.classList.add("bounce-out");
+        navButton.style.pointerEvents = "auto";
 
         setTimeout(() => {
             navMobile.style.display = "none";
