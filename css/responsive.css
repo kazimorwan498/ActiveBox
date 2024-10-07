@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-    #team {
+    #team-section {
         grid-template-columns: auto auto;
         padding: 10%;
         gap: 100px;
@@ -11,7 +11,7 @@
         padding-inline: 8%;
     }
 
-    #homePage {
+    #home-section {
         padding: 15% 8% 10%;
 
         & h1 {
@@ -23,11 +23,11 @@
         }
     }
 
-    #secPage {
+    #feature-section {
         grid-template-columns: auto auto;
     }
 
-    #works {
+    #works-section {
         grid-template-columns: auto auto;
     }
 }
@@ -37,13 +37,13 @@
         padding-inline: 4%;
     }
 
-    #homePage h1 {
+    #home-section h1 {
         font-size: 45px;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #homePage h1 {
+    #home-section h1 {
         font-size: 40px;
     }
 
@@ -93,7 +93,7 @@
         }
     }
 
-    #homePage {
+    #home-section {
         & h1 {
             font-size: 40px;
         }
@@ -105,7 +105,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    #homePage {
+    #home-section {
         & h1 {
             font-size: 25px;
         }
@@ -117,24 +117,24 @@
     }
 
     #find-button,
-    #download button {
+    #download-section button {
         font-size: 12px;
     }
 
-    #secPage {
+    #feature-section {
         grid-template-columns: auto;
         padding: 5% 10%;
     }
 
-    #works {
+    #works-section {
         grid-template-columns: auto;
     }
 
-    #team {
+    #team-section {
         grid-template-columns: auto;
     }
 
-    .all-clients {
+    .clients-details {
         flex-direction: column;
 
         & img {
@@ -156,7 +156,7 @@
         }
     }
 
-    #download {
+    #download-section {
         & h2 {
             font-size: 20px;
         }
@@ -166,7 +166,7 @@
         }
     }
 
-    footer {
+    #footer-section {
         flex-direction: column;
         gap: 60px;
     }
