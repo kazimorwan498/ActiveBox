@@ -1,24 +1,21 @@
 const navMobile = document.getElementById("nav-mobile"),
-    navButton = document.getElementById("nav-button"),
-    navClose = document.getElementById("nav-close"),
+    navButton = document.getElementById("nav-open-button"),
+    navClose = document.getElementById("nav-close-button"),
     body = document.querySelector("body"),
     navLinks = document.querySelectorAll("#nav-mobile a");
 
 navButton.addEventListener("click", () => {
     navMobile.style.display = "flex";
     navButton.style.pointerEvents = "none";
-    // navButton.style.display = "none";
     body.style.overflow = "hidden";
 
-    // Add bounce-in animation
     navMobile.classList.add("bounce-in");
     setTimeout(() => {
         navMobile.classList.remove("bounce-in");
-    }, 200); // Remove bounce-in class after animation completes
+    }, 200);
 });
 
 navClose.addEventListener("click", () => {
-    // Add bounce-out animation before hiding navMobile
     navMobile.classList.add("bounce-out");
     navButton.style.pointerEvents = "auto";
 
@@ -27,14 +24,12 @@ navClose.addEventListener("click", () => {
         navButton.style.display = "flex";
         body.style.overflow = "auto";
 
-        // Remove bounce-out class after animation completes
         navMobile.classList.remove("bounce-out");
-    }, 200); // Wait for the bounce-out animation to complete
+    }, 200);
 });
 
 navLinks.forEach((link) => {
     link.addEventListener("click", () => {
-        // Add bounce-out animation before hiding nav
         navMobile.classList.add("bounce-out");
         navButton.style.pointerEvents = "auto";
 
@@ -43,20 +38,17 @@ navLinks.forEach((link) => {
             navButton.style.display = "flex";
             body.style.overflow = "auto";
 
-            // Remove bounce-out class after animation completes
             navMobile.classList.remove("bounce-out");
-        }, 200); // Wait for the bounce-out animation to complete
+        }, 200);
     });
 });
 
 function checkScreenWidth() {
     if (window.innerWidth > 800) {
-        // If width is greater than 650px, hide #nav and #menu-btn
         navButton.style.display = "none";
         navMobile.style.display = "none";
     } else {
-        // If width is less than or equal to 650px, show #nav and #menu-btn
-        navButton.style.display = "flex"; // Or whatever display type you prefer
+        navButton.style.display = "flex";
     }
 }
 

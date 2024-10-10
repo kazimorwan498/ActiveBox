@@ -1,385 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Kazi Morwan" />
-        <title>ActiveBox</title>
-        <link
-            rel="shortcut icon"
-            href="./img/favicon.jpg"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="./css/responsive.css" />
-        <script src="index.js" defer></script>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        />
-    </head>
 
-    <body>
-        <section>
-            <header>
-                <img
-                    src="./img/logo.png"
-                    alt="ActiveBox"
-                    onClick="window.location.reload();"
-                />
-                <div id="nav">
-                    <a href="#feature-section">Features</a>
-                    <a href="#works-section">Works</a>
-                    <a href="#team-section">Our Team</a>
-                    <a href="#clients-section">Clients</a>
-                    <a href="#download-section">Download</a>
-                </div>
-                <div id="nav-mobile">
-                    <a href="#feature-section">Features</a>
-                    <a href="#works-section">Works</a>
-                    <a href="#team-section">Our Team</a>
-                    <a href="#clients-section">Clients</a>
-                    <a href="#download-section">Download</a>
-                    <button id="nav-close">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
-                </div>
-                <button id="nav-button">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kazi Morwan">
+    <title>ActiveBox</title>
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
 
-            <div id="home-section">
-                <h1>Your Favorite One Page Multi Purpose Template</h1>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Magnam id neque nesciunt eum provident commodi ullam
-                    aliquam.
-                </p>
-                <button
-                    id="find-button"
-                    onclick="window.open('https://github.com/kazimorwan498')"
-                >
-                    Find Out More
+<body>
+
+    <!-- This is nav & home section -->
+    <section>
+
+        <!-- This is nav section -->
+        <header>
+            <img src="./img/logo.png" alt="ActiveBox" onClick="window.location.reload();">
+
+            <!-- nav for large screen -->
+            <div id="nav">
+                <a href="#feature-section">Features</a>
+                <a href="#works-section">Works</a>
+                <a href="#team-section">Our Teams</a>
+                <a href="#clients-section">Clients</a>
+                <a href="#download-section">Downloads</a>
+            </div>
+
+            <!-- nav for small screen -->
+            <div id="nav-mobile">
+                <a href="#feature-section">Features</a>
+                <a href="#works-section">Works</a>
+                <a href="#team-section">Our Teams</a>
+                <a href="#clients-section">Clients</a>
+                <a href="#download-section">Downloads</a>
+
+                <!-- nav close button -->
+                <button id="nav-close-button">
+                    <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
-        </section>
 
-        <div id="feature-section">
-            <div class="feature">
-                <img src="./img/pen-ruler.png" alt="pen-ruler" />
-                <h3>Easily Customized</h3>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Donec
-                    ullamcorper nulla.
-                </p>
-            </div>
-            <div class="feature">
-                <img src="./img/monitor.png" alt="monitor" />
-                <h3>Responsive Ready</h3>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Donec
-                    ullamcorper nulla.
-                </p>
-            </div>
-            <div class="feature">
-                <img src="./img/bulb.png" alt="bulb" />
-                <h3>Modern Design</h3>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Donec
-                    ullamcorper nulla.
-                </p>
-            </div>
-            <div class="feature">
-                <img src="./img/atom.png" alt="atom" />
-                <h3>Clean Code</h3>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Donec
-                    ullamcorper nulla.
-                </p>
-            </div>
-            <div class="feature">
-                <img src="./img/briefcase.png" alt="briefcase" />
-                <h3>Ready to Ship</h3>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Donec
-                    ullamcorper nulla.
-                </p>
-            </div>
-            <div class="feature">
-                <img src="./img/cloud-down-arrow.png" alt="cloud-down-arrow" />
-                <h3>Download for Free</h3>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Nullam quis risus eget urna mollis ornare vel eu leo. Donec
-                    ullamcorper nulla.
-                </p>
-            </div>
-        </div>
+            <!-- nav open button -->
+            <button id="nav-open-button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </header>
 
-        <div id="works-section">
-            <div class="work-img">
-                <img src="./img/work-1.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-2.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-3.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-4.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-5.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-6.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-7.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-            <div class="work-img">
-                <img src="./img/work-8.jpg" />
-                <div class="work-details">
-                    <h4>Project Name</h4>
-                    <span>User Interface Design</span>
-                </div>
-            </div>
-        </div>
+        <!-- This is home section -->
+        <div id="home-section">
 
-        <div id="team-section">
-            <div class="team-member-details">
-                <img src="./img/team-1.jpg" />
-                <h4 class="team-member-names">Ruth Woods</h4>
-                <h5 class="team-member-job-post">Founder, CEO</h5>
-                <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Maecenas sed diam eget risus varius blandit sit amet non
-                    magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-                </p>
-                <div class="team-member-social-profiles">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="team-member-details">
-                <img src="./img/team-2.jpg" />
-                <h4 class="team-member-names">Timothy Reed</h4>
-                <h5 class="team-member-job-post">Co-Founder, Developer</h5>
-                <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Maecenas sed diam eget risus varius blandit sit amet non
-                    magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-                </p>
-                <div class="team-member-social-profiles">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="team-member-details">
-                <img src="./img/team-3.jpg" />
-                <h4 class="team-member-names">Victoria Valdez</h4>
-                <h5 class="team-member-job-post">UI Designer</h5>
-                <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Maecenas sed diam eget risus varius blandit sit amet non
-                    magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-                </p>
-                <div class="team-member-social-profiles">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="team-member-details">
-                <img src="./img/team-4.jpg" />
-                <h4 class="team-member-names">Beverly Little</h4>
-                <h5 class="team-member-job-post">Data Scientist</h5>
-                <p>
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                    condimentum nibh, ut fermentum massa justo sit amet risus.
-                    Maecenas sed diam eget risus varius blandit sit amet non
-                    magna. Nullam quis risus eget urna mollis ornare vel eu leo.
-                </p>
-                <div class="team-member-social-profiles">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
+            <h1>Your Favorite One Page Multi Purpose Template</h1>
 
-        <div id="clients-section">
-            <div class="clients-details">
-                <img src="./img/clients-1.jpg" />
-                <div class="clients-message">
-                    <h3>
-                        "Integer posuere erat a ante venenatis dapibus posuere
-                        velit aliquet. Donec sed odio dui. Aenean eu leo
-                        quam..."
-                    </h3>
-                    <p>Susan Sims, Interaction Designer at XYZ</p>
-                </div>
-            </div>
-            <div class="clients-details">
-                <img src="./img/clients-2.jpg" />
-                <div class="clients-message">
-                    <h3>
-                        "Integer posuere erat a ante venenatis dapibus posuere
-                        velit aliquet. Donec sed odio dui. Aenean eu leo
-                        quam..."
-                    </h3>
-                    <p>Susan Sims, Interaction Designer at XYZ</p>
-                </div>
-            </div>
-            <div class="clients-details">
-                <img src="./img/clients-3.jpg" />
-                <div class="clients-message">
-                    <h3>
-                        "Integer posuere erat a ante venenatis dapibus posuere
-                        velit aliquet. Donec sed odio dui. Aenean eu leo
-                        quam..."
-                    </h3>
-                    <p>Susan Sims, Interaction Designer at XYZ</p>
-                </div>
-            </div>
-            <div class="clients-details">
-                <img src="./img/clients-4.jpg" />
-                <div class="clients-message">
-                    <h3>
-                        "Integer posuere erat a ante venenatis dapibus posuere
-                        velit aliquet. Donec sed odio dui. Aenean eu leo
-                        quam..."
-                    </h3>
-                    <p>Susan Sims, Interaction Designer at XYZ</p>
-                </div>
-            </div>
-            <div class="clients-details">
-                <img src="./img/clients-5.jpg" />
-                <div class="clients-message">
-                    <h3>
-                        "Integer posuere erat a ante venenatis dapibus posuere
-                        velit aliquet. Donec sed odio dui. Aenean eu leo
-                        quam..."
-                    </h3>
-                    <p>Susan Sims, Interaction Designer at XYZ</p>
-                </div>
-            </div>
-            <div class="clients-details">
-                <img src="./img/clients-6.jpg" />
-                <div class="clients-message">
-                    <h3>
-                        "Integer posuere erat a ante venenatis dapibus posuere
-                        velit aliquet. Donec sed odio dui. Aenean eu leo
-                        quam..."
-                    </h3>
-                    <p>Susan Sims, Interaction Designer at XYZ</p>
-                </div>
-            </div>
-        </div>
-
-        <div id="download-section">
-            <h2>Are You Ready to Start? Download Now For Free!</h2>
-            <span>Fusce dapibus, tellus ac cursus commodo</span>
-            <button>Download Here</button>
-        </div>
-
-        <footer id="footer-section">
-            <div id="location">
-                <h5>Location</h5>
-                <p>3910-Chhagalnaiya, Feni.</p>
-            </div>
-            <div id="share-in-socials">
-                <h5>Share With Love</h5>
-                <div id="company-socials">
-                    <a href="#" target="_blank"
-                        ><i class="fa-brands fa-facebook-f"></i
-                    ></a>
-                    <a href="#" target="_blank"
-                        ><i class="fa-brands fa-x-twitter"></i
-                    ></a>
-                    <a href="#" target="_blank"
-                        ><i class="fa-brands fa-linkedin"></i
-                    ></a>
-                </div>
-            </div>
-            <div id="about">
-                <h5>About ActiveBox</h5>
-                <p>
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                    Donec ullamcorper nulla non metus auctor fringilla.
-                </p>
-            </div>
-        </footer>
-        <div id="copyright">
-            <p>Copyright &copy; 2023 ActiveBox. All Rights Reserved</p>
             <p>
-                Made with <span>&#128150;</span> by
-                <a href="https://github.com/kazimorwan498">Kazi Morwan</a>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Magnam id neque nesciunt eum provident commodi ullam
+                aliquam.
+            </p>
+
+            <button id="find-button" onclick="window.open('https://github.com/kazimorwan498')">
+                Find Out More
+            </button>
+        </div>
+    </section>
+
+    <!-- This is feature section -->
+    <div id="feature-section">
+
+        <div class="feature">
+            <img src="./img/pen-ruler.png" alt="pen-ruler">
+            <h3>Easily Customized</h3>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla.
             </p>
         </div>
-    </body>
+
+        <div class="feature">
+            <img src="./img/monitor.png" alt="monitor">
+            <h3>Responsive Ready</h3>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla.
+            </p>
+        </div>
+
+        <div class="feature">
+            <img src="./img/bulb.png" alt="bulb">
+            <h3>Modern Design</h3>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla.
+            </p>
+        </div>
+
+        <div class="feature">
+            <img src="./img/atom.png" alt="atom">
+            <h3>Clean Code</h3>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla.
+            </p>
+        </div>
+
+        <div class="feature">
+            <img src="./img/briefcase.png" alt="briefcase">
+            <h3>Ready to Ship</h3>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla.
+            </p>
+        </div>
+
+        <div class="feature">
+            <img src="./img/cloud-down-arrow.png" alt="cloud-down-arrow">
+            <h3>Download for Free</h3>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Nullam quis risus eget urna mollis ornare vel eu leo. Donec
+                ullamcorper nulla.
+            </p>
+        </div>
+    </div>
+
+    <!-- This is work section -->
+    <div id="works-section">
+        <div class="work-img">
+            <img src="./img/work-1.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-2.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-3.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-4.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-5.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-6.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-7.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+
+        <div class="work-img">
+            <img src="./img/work-8.jpg">
+
+            <div class="work-details">
+                <h4>Project Name</h4>
+                <span>User Interface Design</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is team section -->
+    <div id="team-section">
+
+        <div class="team-member-details">
+            <img src="./img/team-1.jpg">
+            <h4 class="team-member-names">Ruth Woods</h4>
+            <h5 class="team-member-job-post">Founder, CEO</h5>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus.
+                Maecenas sed diam eget risus varius blandit sit amet non
+                magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+            </p>
+
+            <div class="team-member-social-profiles">
+                <a href="https://www.facebook.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-member-details">
+            <img src="./img/team-2.jpg">
+            <h4 class="team-member-names">Timothy Reed</h4>
+            <h5 class="team-member-job-post">Co-Founder, Developer</h5>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus.
+                Maecenas sed diam eget risus varius blandit sit amet non
+                magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+            </p>
+
+            <div class="team-member-social-profiles">
+                <a href="https://www.facebook.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-member-details">
+            <img src="./img/team-3.jpg">
+            <h4 class="team-member-names">Victoria Valdez</h4>
+            <h5 class="team-member-job-post">UI Designer</h5>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus.
+                Maecenas sed diam eget risus varius blandit sit amet non
+                magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+            </p>
+
+            <div class="team-member-social-profiles">
+                <a href="https://www.facebook.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="team-member-details">
+            <img src="./img/team-4.jpg">
+            <h4 class="team-member-names">Beverly Little</h4>
+            <h5 class="team-member-job-post">Data Scientist</h5>
+            <p>
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus.
+                Maecenas sed diam eget risus varius blandit sit amet non
+                magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+            </p>
+
+            <div class="team-member-social-profiles">
+                <a href="https://www.facebook.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is clients section -->
+    <div id="clients-section">
+
+        <div class="clients-details">
+            <img src="./img/clients-1.jpg">
+
+            <div class="clients-message">
+                <h3>
+                    "Integer posuere erat a ante venenatis dapibus posuere
+                    velit aliquet. Donec sed odio dui. Aenean eu leo
+                    quam..."
+                </h3>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
+        </div>
+
+        <div class="clients-details">
+            <img src="./img/clients-2.jpg">
+
+            <div class="clients-message">
+                <h3>
+                    "Integer posuere erat a ante venenatis dapibus posuere
+                    velit aliquet. Donec sed odio dui. Aenean eu leo
+                    quam..."
+                </h3>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
+        </div>
+
+        <div class="clients-details">
+            <img src="./img/clients-3.jpg">
+
+            <div class="clients-message">
+                <h3>
+                    "Integer posuere erat a ante venenatis dapibus posuere
+                    velit aliquet. Donec sed odio dui. Aenean eu leo
+                    quam..."
+                </h3>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
+        </div>
+
+        <div class="clients-details">
+            <img src="./img/clients-4.jpg">
+
+            <div class="clients-message">
+                <h3>
+                    "Integer posuere erat a ante venenatis dapibus posuere
+                    velit aliquet. Donec sed odio dui. Aenean eu leo
+                    quam..."
+                </h3>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
+        </div>
+
+        <div class="clients-details">
+            <img src="./img/clients-5.jpg">
+
+            <div class="clients-message">
+                <h3>
+                    "Integer posuere erat a ante venenatis dapibus posuere
+                    velit aliquet. Donec sed odio dui. Aenean eu leo
+                    quam..."
+                </h3>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
+        </div>
+
+        <div class="clients-details">
+            <img src="./img/clients-6.jpg">
+
+            <div class="clients-message">
+                <h3>
+                    "Integer posuere erat a ante venenatis dapibus posuere
+                    velit aliquet. Donec sed odio dui. Aenean eu leo
+                    quam..."
+                </h3>
+                <p>Susan Sims, Interaction Designer at XYZ</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- This is download section -->
+    <div id="download-section">
+        <h2>Are You Ready to Start? Download Now For Free!</h2>
+        <span>Fusce dapibus, tellus ac cursus commodo</span>
+        <button onclick="window.open('https://github.com/kazimorwan498')">Download Here</button>
+    </div>
+
+    <!-- This footer section -->
+    <footer id="footer-section">
+
+        <div id="location">
+            <h5>Location</h5>
+            <p>3910-Chhagalnaiya, Feni.</p>
+        </div>
+
+        <div id="share-in-socials">
+            <h5>Share With Love</h5>
+
+            <div id="company-socials">
+                <a href="https://www.facebook.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/kazimorwan498" target="_blank">
+                    <i class="fa-brands fa-instagram"></i></i>
+                </a>
+            </div>
+        </div>
+
+        <div id="about">
+            <h5>About ActiveBox</h5>
+            <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Donec ullamcorper nulla non metus auctor fringilla.
+            </p>
+        </div>
+    </footer>
+
+    <!-- This is copyright section -->
+    <div id="copyright">
+        <p>Copyright &copy; 2024 ActiveBox. All Rights Reserved</p>
+        <p>
+            Made with <span>&#128150;</span> by
+            <a href="https://github.com/kazimorwan498">Kazi Morwan</a>
+        </p>
+    </div>
+</body>
+
 </html>

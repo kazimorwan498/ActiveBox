@@ -13,14 +13,14 @@
 
     #home-section {
         padding: 15% 8% 10%;
+    }
 
-        & h1 {
-            font-size: 50px;
-        }
-        & p {
-            font-size: 20px;
-            margin-bottom: 80px;
-        }
+    #home-section h1 {
+        font-size: 50px;
+    }
+    #home-section p {
+        font-size: 20px;
+        margin-bottom: 80px;
     }
 
     #feature-section {
@@ -51,8 +51,8 @@
         display: none;
     }
 
-    #nav-button,
-    #nav-mobile > #nav-close {
+    #nav-open-button,
+    #nav-mobile > #nav-close-button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -80,40 +80,40 @@
         backdrop-filter: blur(5px);
         border-radius: 15px;
         box-shadow: 0 0 20px 100px rgba(from var(--sec-text-color) r g b / 0.5);
-
-        & a {
-            color: var(--text-color);
-            font-size: 20px;
-        }
-
-        #nav-close {
-            position: absolute;
-            top: 3%;
-            right: 5%;
-        }
     }
 
-    #home-section {
-        & h1 {
-            font-size: 40px;
-        }
+    #nav-mobile a {
+        color: var(--text-color);
+        font-size: 20px;
+    }
 
-        & p {
-            font-size: 17px;
-        }
+    #nav-mobile #nav-close-button {
+        position: absolute;
+        top: 3%;
+        right: 5%;
+    }
+
+    #home-section h1 {
+        font-size: 40px;
+    }
+
+    #home-section p {
+        font-size: 17px;
+    }
+
+    #team-section .team-member-details:hover {
+        scale: 1;
     }
 }
 
 @media screen and (max-width: 650px) {
-    #home-section {
-        & h1 {
-            font-size: 25px;
-        }
+    #home-section h1 {
+        font-size: 25px;
+    }
 
-        & p {
-            font-size: 14px;
-            margin-bottom: 40px;
-        }
+    #home-section p {
+        font-size: 14px;
+        margin-bottom: 40px;
     }
 
     #find-button,
@@ -134,40 +134,44 @@
         grid-template-columns: auto;
     }
 
-    .clients-details {
+    #clients-section .clients-details {
         flex-direction: column;
-
-        & img {
-            width: 100vw;
-        }
     }
 
-    .clients-message {
+    #clients-section .clients-details img {
+        width: 100vw;
+    }
+
+    #clients-section .clients-details .clients-message {
         width: 100vw;
         gap: 40px;
         padding: 10% 5%;
-
-        & h3 {
-            font-size: 5vw;
-        }
-
-        & p {
-            font-size: 2vw;
-        }
     }
 
-    #download-section {
-        & h2 {
-            font-size: 20px;
-        }
+    #clients-section .clients-details .clients-message h3 {
+        font-size: 5vw;
+    }
 
-        & span {
-            font-size: 10px;
-        }
+    #clients-section .clients-details .clients-message p {
+        font-size: 2vw;
+    }
+
+    #download-section h2 {
+        font-size: 20px;
+    }
+
+    #download-section span {
+        font-size: 10px;
     }
 
     #footer-section {
         flex-direction: column;
         gap: 60px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header img {
+        width: 150px;
     }
 }
