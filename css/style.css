@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: context-menu;
     font-family: "Raleway", sans-serif;
 }
 
@@ -24,14 +23,10 @@
 
 html {
     scroll-behavior: smooth;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 
@@ -297,7 +292,7 @@ header img {
     color: rgba(from var(--sec-text-color) r g b / 0.5);
     text-decoration: none;
     border: 2px solid rgba(from var(--sec-text-color) r g b / 0.5);
-    border-radius: 5px;
+    border-radius: 10px;
     transition: var(--short-transition);
 
     &:hover {
@@ -509,11 +504,11 @@ header img {
     justify-content: center;
     width: 50px;
     height: 50px;
-    font-size: 25px;
+    font-size: 23px;
     color: var(--text-color);
     text-decoration: none;
     border: 2px solid var(--text-color);
-    border-radius: 5px;
+    border-radius: 50%;
     transition: var(--short-transition);
 
     &:hover {
